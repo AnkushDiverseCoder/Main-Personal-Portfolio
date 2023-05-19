@@ -15,6 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/assets/Logo.png" />
         <title>Thakur Ankush Singh</title>
       </Head>
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
@@ -31,11 +32,11 @@ export default function Home() {
           <div className="h-[88vh] w-full mx-auto p-4">
             <Middle />
             <About />
-            <Experience/>
-            <Project/>
-            <Archive/>
-            <Contact/>
-            <Footer/>
+            {/* <Experience /> */}
+            <Project />
+            <Archive />
+            <Contact />
+            <Footer />
           </div>
           <motion.div
             initial={{ opacity: 0 }}

@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 import Image from "next/image";
-import { ProfileImg } from "@/public/assets";
+import ProfileImg from "@/public/assets/ProfileImg.png";
 
 const About = () => {
   return (
@@ -14,28 +14,36 @@ const About = () => {
       <div className="flex flex-col gap-16 lgl:flex-row">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            reprehenderit explicabo sit sint? Magnam unde sapiente incidunt
-            placeat quisquam, reiciendis consequuntur nam reprehenderit.
-            Voluptate sint dignissimos aperiam ipsa cum doloremque totam impedit
-            maiores dolore, sit repellat perspiciatis deserunt error aliquid ab
-            minima laborum laboriosam qui dolorum? Aut sit quas eos!
+            I am a passionate Full Stack Developer with expertise in the MERN
+            stack. With a deep curiosity for web development, I have explored
+            various programming languages and frameworks, ultimately finding my
+            true calling in Full Stack Development. I possess comprehensive
+            knowledge and hands-on experience in building robust web
+            applications using MongoDB, Express.js, React.js, and Node.js.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Dignissimos, accusantium.
-            <span className="text-textGreen">Lorem ipsum dolor sit amet.</span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed,
-            ipsum.
-            <span className="text-textGreen">Lorem ipsum dolor sit amet.</span>
+            Throughout my journey, I have worked on diverse projects, including
+            <span className="text-textGreen">
+              {" "}
+              Real World Freelancing Application{" "}
+            </span>{" "}
+            and{" "}
+            <span className="text-textGreen">
+              {" "}
+              Personal Blog to Youtube Clone applications.
+            </span>{" "}
+            These experiences have not only strengthened my technical skills but
+            also cultivated a keen eye for detail and a solution-oriented
+            mindset.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            accusamus a magni! Ab earum quaerat quia officiis minus accusamus!
-            Dignissimos architecto aperiam nobis iure, excepturi velit in itaque
-            eveniet vitae?
+            As a lifelong learner, I am committed to staying up-to-date with the
+            latest industry trends and continuously improving my skill set.
+            I value effective
+            communication and excel as a team player. My personal attributes
+            include adaptability, a strong work ethic, and a passion for
+            creating high-quality software solutions.
           </p>
-          <p>Here are a few technologies I have been working with recently: </p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -95,10 +103,10 @@ const About = () => {
                 src={ProfileImg}
                 alt="ProfileImg"
               />
-              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textDark/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
-              <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover: -translate-y-2 transition-transform duration-300"></div>
+          <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textDark rounded-md group-hover:-translate-x-2 group-hover: -translate-y-2 transition-transform duration-300"></div>
         </div>
       </div>
     </section>

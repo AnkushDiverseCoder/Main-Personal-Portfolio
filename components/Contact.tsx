@@ -11,10 +11,15 @@ const Contact = () => {
       </p>
       <h2 className="font-titleFont text-5xl font-semibold ">Get In Touch</h2>
       <p className="text-center max-w-[600px] text-textDark ">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
-        voluptatibus quidem doloremque iste at ex deserunt ullam voluptatum hic
-        similique, soluta sed, ipsa delectus temporibus inventore harum totam
-        incidunt.
+        Feel free to get in touch with me through the contact details provided
+        Above. I'm excited to hear from you and explore potential opportunities
+        for collaboration, projects, or any inquiries you may have.
+      </p>
+      <p className="text-center max-w-[600px] text-textDark ">
+        I'm always open to meaningful conversations and eager to connect. to
+        learn more about my work and projects. Don't hesitate to reach out—I'm
+        looking forward to hearing from you and discussing how we can create
+        something extraordinary together
       </p>
       <a href="mailto:thakurankushsingh1902@gmail.com" target="_blank">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
