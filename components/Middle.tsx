@@ -1,6 +1,18 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Middle = () => {
+ 
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const element = document.getElementById(targetId);
+    element?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+ 
   return (
     <section
       id="home"
@@ -42,14 +54,20 @@ const Middle = () => {
           </span>
         </a>
       </motion.p>
-      <motion.button
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+      <Link
+      href="#project"
+      className="flex items-center gap1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+      onClick={handleScroll}
       >
-        Check out my Project!
-      </motion.button>
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9,ease: "easeIn" }}
+          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        >
+          Check out my Project!
+        </motion.button>
+      </Link>
     </section>
   );
 };

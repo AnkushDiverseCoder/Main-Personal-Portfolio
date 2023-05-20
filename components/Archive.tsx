@@ -17,74 +17,35 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <motion.div
-         initial={{opacity:0}}
-         whileInView={{opacity:1}}
-         transition={{delay:0.1}}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.1 }}
         >
           <ArchiveCard
-            title="Educare English Learning Academy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          ipsum aspernatur tempora mollitia voluptas perferendis minima."
-            listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-            link="http://www.netflix.com/"
+            title="Database Query Generator"
+            des="Database Query Generator ChatGPT API Project: Developed an intelligent API using
+            ChatGPT to generate accurate and efficient database queries.Ensured compatibility with multiple database systems."
+            listItem={["Reactjs", "Tailwind CSS", "Chat GPT"]}
+            link="https://app.netlify.com/sites/querygenerator1808/overview"
           />
         </motion.div>
         <motion.div
-         initial={{opacity:0}}
-         whileInView={{opacity:1}}
-         transition={{delay:0.2}}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
         >
           <ArchiveCard
-            title="Educare English Learning Academy"
+            title="File Sharing Application"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           ipsum aspernatur tempora mollitia voluptas perferendis minima."
             listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-            link="http://www.netflix.com/"
+            link="https://www.netflix.com/"
           />
         </motion.div>
         <motion.div
-         initial={{opacity:0}}
-         whileInView={{opacity:1}}
-         transition={{delay:0.3}}
-        >
-          <ArchiveCard
-            title="Educare English Learning Academy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          ipsum aspernatur tempora mollitia voluptas perferendis minima."
-            listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-            link="http://www.netflix.com/"
-          />
-        </motion.div>
-        <motion.div
-         initial={{opacity:0}}
-         whileInView={{opacity:1}}
-         transition={{delay:0.4}}
-        >
-          <ArchiveCard
-            title="Educare English Learning Academy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          ipsum aspernatur tempora mollitia voluptas perferendis minima."
-            listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-            link="http://www.netflix.com/"
-          />
-        </motion.div>
-        <motion.div
-         initial={{opacity:0}}
-         whileInView={{opacity:1}}
-         transition={{delay:0.5}}
-        >
-          <ArchiveCard
-            title="Educare English Learning Academy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          ipsum aspernatur tempora mollitia voluptas perferendis minima."
-            listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-            link="http://www.netflix.com/"
-          />
-        </motion.div>
-        <motion.div
-         initial={{opacity:0}}
-         whileInView={{opacity:1}}
-         transition={{delay:0.6}}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
         >
           <ArchiveCard
             title="Educare English Learning Academy"
@@ -98,9 +59,9 @@ const Archive = () => {
         {showMore && (
           <>
             <motion.div
-             initial={{opacity:0}}
-             whileInView={{opacity:1}}
-             transition={{delay:0.1}}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.1 }}
             >
               <ArchiveCard
                 title="Educare English Learning Academy"
@@ -111,9 +72,9 @@ const Archive = () => {
               />
             </motion.div>
             <motion.div
-             initial={{opacity:0}}
-             whileInView={{opacity:1}}
-             transition={{delay:0.2}}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
             >
               <ArchiveCard
                 title="Educare English Learning Academy"
@@ -124,9 +85,9 @@ const Archive = () => {
               />
             </motion.div>
             <motion.div
-             initial={{opacity:0}}
-             whileInView={{opacity:1}}
-             transition={{delay:0.3}}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
             >
               <ArchiveCard
                 title="Educare English Learning Academy"

@@ -12,12 +12,12 @@ const Contact = () => {
       <h2 className="font-titleFont text-5xl font-semibold ">Get In Touch</h2>
       <p className="text-center max-w-[600px] text-textDark ">
         Feel free to get in touch with me through the contact details provided
-        Above. I'm excited to hear from you and explore potential opportunities
+        Above. {"I'm"} excited to hear from you and explore potential opportunities
         for collaboration, projects, or any inquiries you may have.
       </p>
       <p className="text-center max-w-[600px] text-textDark ">
-        I'm always open to meaningful conversations and eager to connect. to
-        learn more about my work and projects. Don't hesitate to reach out—I'm
+       {"I'm"} always open to meaningful conversations and eager to connect. to
+        learn more about my work and projects. {"Don't"} hesitate to reach {"out—I'm"}
         looking forward to hearing from you and discussing how we can create
         something extraordinary together
       </p>
