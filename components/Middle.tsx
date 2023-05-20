@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const Middle = () => {
- 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
@@ -12,7 +11,7 @@ const Middle = () => {
       behavior: "smooth",
     });
   };
- 
+
   return (
     <section
       id="home"
@@ -44,9 +43,13 @@ const Middle = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae illum
-        pariatur, eos in temporibus ducimus ratione repellendus nobis nemo
-        necessitatibus. <br />
+        I'm a passionate and experienced full stack developer with expertise in
+        front-end and back-end development. With a strong foundation in HTML,
+        CSS, and JavaScript, I specialize in creating responsive and intuitive
+        user interfaces. On the back-end, I excel in designing and implementing
+        scalable APIs using frameworks like Node.js and Express. I have hands-on
+        experience with database MongoDB, ensuring efficient
+        data management. <br />
         <a href="https://www.google.com" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
@@ -55,14 +58,14 @@ const Middle = () => {
         </a>
       </motion.p>
       <Link
-      href="#project"
-      className="flex items-center gap1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-      onClick={handleScroll}
+        href="#project"
+        className="flex items-center gap1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+        onClick={handleScroll}
       >
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.9,ease: "easeIn" }}
+          transition={{ duration: 0.5, delay: 0.9, ease: "easeIn" }}
           className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
         >
           Check out my Project!

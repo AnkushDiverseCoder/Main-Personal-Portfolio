@@ -25,8 +25,8 @@ const Archive = () => {
             title="Database Query Generator"
             des="Database Query Generator ChatGPT API Project: Developed an intelligent API using
             ChatGPT to generate accurate and efficient database queries.Ensured compatibility with multiple database systems."
-            listItem={["Reactjs", "Tailwind CSS", "Chat GPT"]}
-            link="https://app.netlify.com/sites/querygenerator1808/overview"
+            listItem={["React.js", "Tailwind CSS", "Chat GPT"]}
+            link="https://querygenerator1808.netlify.app"
           />
         </motion.div>
         <motion.div
@@ -36,10 +36,10 @@ const Archive = () => {
         >
           <ArchiveCard
             title="File Sharing Application"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          ipsum aspernatur tempora mollitia voluptas perferendis minima."
-            listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-            link="https://www.netflix.com/"
+            des="personal file sharing application that allows users to securely upload, store, and share files.
+             Successfully managed the entire project lifecycle, from conception to deployment, showcasing my full stack development skills and commitment to creating practical solutions."
+            listItem={["React.js", "Multer", "MongoDB"]}
+            link="https://shareJoy1808.netlify.com/"
           />
         </motion.div>
         <motion.div
@@ -51,7 +51,7 @@ const Archive = () => {
             title="Educare English Learning Academy"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           ipsum aspernatur tempora mollitia voluptas perferendis minima."
-            listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
+            listItem={["React.js", "Tailwind CSS", "MongoDB"]}
             link="http://www.netflix.com/"
           />
         </motion.div>
