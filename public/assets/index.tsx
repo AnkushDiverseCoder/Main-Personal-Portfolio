@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo.png"
+import Logo from "../assets/logo.png"
 import ProfileImg from "../assets/ProfileImg.png"
 import Project1 from "../assets/Project1.jpg"
 import youtubeClone from "../assets/YoutubeClone.jpg"
