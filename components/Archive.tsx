@@ -37,7 +37,7 @@ const Archive = () => {
           <ArchiveCard
             title="File Sharing Application"
             des="personal file sharing application that allows users to securely upload, store, and share files.
-             Successfully managed the entire project lifecycle, from conception to deployment, showcasing my full stack development skills and commitment to creating practical solutions."
+             Successfully managed the entire project lifecycle, showcasing my full stack development skills creating practical solutions."
             listItem={["React.js", "Multer", "MongoDB"]}
             link="https://shareJoy1808.netlify.com/"
           />
@@ -48,11 +48,10 @@ const Archive = () => {
           transition={{ delay: 0.3 }}
         >
           <ArchiveCard
-            title="Educare English Learning Academy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          ipsum aspernatur tempora mollitia voluptas perferendis minima."
+            title="Realtime Chat App"
+            des=" Designed and developed a high-performance, real-time chat application with a sleek user interface, enabling seamless communication and instant messaging. "
             listItem={["React.js", "Tailwind CSS", "MongoDB"]}
-            link="http://www.netflix.com/"
+            link="https://ankushchat.netlify.app"
           />
         </motion.div>
 
@@ -64,11 +63,12 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard
-                title="Educare English Learning Academy"
-                des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              ipsum aspernatur tempora mollitia voluptas perferendis minima."
+                title="Youtube React api"
+                des="Created a personal project utilizing the YouTube API with React.
+                Implemented features like video search suggested videos based on user preferences.
+                Designed an intuitive user interface with responsive design principles..."
                 listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-                link="http://www.netflix.com/"
+                link="https://ankushyoutube.netlify.app/"
               />
             </motion.div>
             <motion.div
@@ -77,24 +77,10 @@ const Archive = () => {
               transition={{ delay: 0.2 }}
             >
               <ArchiveCard
-                title="Educare English Learning Academy"
-                des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              ipsum aspernatur tempora mollitia voluptas perferendis minima."
+                title="Personal Blog"
+                des="Passionate and introspective blogger sharing personal experiences, insights, and reflections. Engaging storytelling combined with authentic vulnerability to inspire and connect with readers. Topics encompass life, growth, relationships, mental health, and self-discovery. "
                 listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-                link="http://www.netflix.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
-            >
-              <ArchiveCard
-                title="Educare English Learning Academy"
-                des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              ipsum aspernatur tempora mollitia voluptas perferendis minima."
-                listItem={["Reactjs", "Tailwind CSS", "MongoDB.io"]}
-                link="http://www.netflix.com/"
+                link="https://blog1808.netlify.app"
               />
             </motion.div>
           </>

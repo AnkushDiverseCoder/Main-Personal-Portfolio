@@ -50,7 +50,7 @@ const Middle = () => {
         scalable APIs using frameworks like Node.js and Express. I have hands-on
         experience with database MongoDB, ensuring efficient
         data management. <br />
-        <a href="https://www.google.com" target="_blank">
+        <a href="https://docs.google.com/document/d/1qzgUfxPYt2XL6cL5tWpA1uqTDd13Ew0jz1M2S4R8L4c/edit?usp=sharing" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
             <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
