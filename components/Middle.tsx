@@ -43,7 +43,7 @@ const Middle = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        I'm a passionate and experienced full stack developer with expertise in
+        {"I'm "}a passionate and experienced full stack developer with expertise in
         front-end and back-end development. With a strong foundation in HTML,
         CSS, and JavaScript, I specialize in creating responsive and intuitive
         user interfaces. On the back-end, I excel in designing and implementing
