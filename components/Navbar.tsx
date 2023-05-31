@@ -35,7 +35,7 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
           className=""
         >
-          <Image className="w-20 sml:w-28 xl:w-36"  src={Logo} alt="Logo" />
+          <Image className="w-20 sml:w-28 xl:w-34"  src={Logo} alt="Logo" />
         </motion.div>
         <div
           className="hidden mdl:inline-flex items-center gap-7
